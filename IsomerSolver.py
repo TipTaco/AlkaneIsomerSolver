@@ -228,7 +228,7 @@ def task1_mod():
 
     print('> [MOD] R Table:', r_table)
     print('> Alkane of size', ALKANE_SIZE, 'has', isomers, 'isomers')
-    print(' > Time elapsed:', round((end - start) * 1000.0, 4), 'ms')
+    print(' > MOD Time elapsed:', round((end - start) * 1000.0, 4), 'ms')
     print(" ")
 
     return isomers, r_table
@@ -281,9 +281,9 @@ def task3():
 
 ### BEGIN ###
 ALKANE_SIZE = 20
+
 #task2()
 #task3()
-
 isomers, r_table = task1()
 task1_mod()
 
